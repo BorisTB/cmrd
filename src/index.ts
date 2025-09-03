@@ -1,3 +1,2 @@
-export function greet(name: string): string {
-  return `Hello, ${name}!`
-}
+export * from './cmrd'
+export { default } from './cmrd'

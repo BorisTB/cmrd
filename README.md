@@ -21,7 +21,7 @@ const npm = {
   add: cmrd`npm i ${0}`,
   addDev: cmrd`npm i -D ${0}`,
   dlx: cmrd`npx --yes ${0} --verbose ${1}`,
-  run: cmrd`npm run ${0}``-- ${1}`
+  run: cmrd`npm run ${0} ${[1, '--']} ${1}`
 };
 
 npm.install() // -> "npm i"

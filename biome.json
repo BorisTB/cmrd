@@ -30,7 +30,9 @@
       "jsxQuoteStyle": "double",
       "arrowParentheses": "always",
       "quoteProperties": "asNeeded",
-      "trailingCommas": "none"
+      "trailingCommas": "none",
+      "bracketSameLine": true,
+      "bracketSpacing": true
     }
   },
   "vcs": {
